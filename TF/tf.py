@@ -51,7 +51,7 @@ for i, row in data.iterrows():
     vs[origen] += [{'id': act, 'pos': [], 'dist': dist * cost}]
     vs[final] += [{'id': act, 'pos': [], 'dist': dist * cost}]
 
-
+ 
 
 #  El algoritmo que use para buscar el camino mas corto entre 2 nodos
 # fue dijkstra. La complejidad de este algoritmo es O(V * 2) donde V es la 
