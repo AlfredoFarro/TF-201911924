@@ -170,12 +170,12 @@ def dibujo_ruta(ruta):
 
 def dijk(a,b, t): 
     time = int(t)
-    objetivo = a
+    objetivo = b
     multiplier = horas[time]
     path,cost = dijkstra(vs, objetivo, multiplier)
 
     camino = []
-    inicio = b
+    inicio = a
     actual = inicio
     while True:
         if actual == '=':
