@@ -100,7 +100,7 @@ def get_coord(Item):
 
 def get_item(Item):
     return data[data['Item'] == int(Item)]
-
+ 
 
 # cargo una lista de latitudes y longitudes
 # para mostrar un mapa
